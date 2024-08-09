@@ -16,8 +16,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-
-
 /* banner section  */
 .banner-container {
     display: flex;
@@ -34,12 +32,10 @@ body {
     margin-top: 140px;
 }
 
-
 .banner-p {
     font-size: 1.25rem;
     font-weight: 400;
     margin-top: 15px;
-
 }
 
 .banner-btn {
@@ -51,17 +47,75 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     margin-top: 19px;
-
-
 }
-
-.banner-right {}
 
 .banner-img {
     max-width: 426px;
     max-height: 490px;
+}
+
+/* My-Mission */
+.My-Mission-top {
+    text-align: center;
+    margin-top: 62px;
+}
+
+.My-Mission-title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 48px;
+}
+
+.My-Mission-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.My-Mission-bottom-box-1 {
+    background: rgba(79, 157, 166, 0.1);
+    max-width: 360px;
+    max-height: 376px;
+    border-radius: 26px;
+    padding: 45px;
+    margin-right: 24px;
 
 }
+
+.My-Mission-bottom-box-2 {
+    background: rgba(255, 89, 89, 0.1);
+    max-width: 360px;
+    max-height: 376px;
+    border-radius: 26px;
+    padding: 45px;
+    margin-right: 24px;
+
+}
+
+.My-Mission-bottom-box-3 {
+    background: rgba(255, 244, 214, 1);
+    max-width: 360px;
+    max-height: 376px;
+    border-radius: 26px;
+    padding: 45px;
+    margin-right: 24px;
+}
+
+.My-Mission-bottom-img {
+    max-width: 126px;
+    max-height: 126px;
+}
+
+.My-Mission-bottom-h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+.My-Mission-bottom-p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 
 /* for phone */
 @media only screen and (max-width: 576px) {
@@ -78,4 +132,24 @@ body {
     .banner-p {
         font-size: 1rem;
     }
+
+    /* My-Mission */
+
+    .My-Mission-bottom {
+        flex-direction: column;
+    }
+
+    .My-Mission-bottom-box-1 {
+        margin: 20px;
+    }
+
+    .My-Mission-bottom-box-2 {
+        margin: 20px;
+    }
+
+    .My-Mission-bottom-box-3 {
+        margin: 20px;
+    }
+
+
 }
