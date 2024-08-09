@@ -181,11 +181,38 @@ body {
     margin-right: 400px;
 }
 
+/* Build */
+.build-div {
+    display: flex;
+}
 
 
 
 
+/* footer */
+footer {
+    background-color: rgba(11, 13, 23, 1);
+    padding: 45px;
+    text-align: center;
+    color: white;
+}
 
+.footer-span {
+    color: rgba(255, 89, 89, 1);
+}
+
+.footer-h1 {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-bottom: 24px;
+}
+
+.footer-p {
+    font-size: .875rem;
+    font-weight: 400;
+    color: rgba(217, 219, 225, 1);
+}
 
 /* for phone */
 @media only screen and (max-width: 576px) {
@@ -259,6 +286,7 @@ body {
     .develop-text-div {
         padding: 40px;
     }
+
 
 
 
