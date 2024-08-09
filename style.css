@@ -116,6 +116,76 @@ body {
     font-size: 1rem;
 }
 
+/* develop */
+.develop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+    gap: 100px;
+}
+
+.develop-img-shape {
+    max-width: 227px;
+    max-height: 227px;
+    margin-right: -125px;
+    margin-bottom: 90px;
+}
+
+
+
+.develop-img {
+    position: relative;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.develop-title {
+    font-size: 700;
+    font-weight: 2.25rem;
+}
+
+.develop-title {
+    font-size: 400;
+    font-weight: 1.125rem;
+}
+
+
+
+.develop-btn {
+    width: 243px;
+    height: 48px;
+    background: rgba(255, 89, 89, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 19px;
+}
+
+.develop-img-shape-2 {
+    max-width: 227px;
+    max-height: 227px;
+    margin-right: -520px;
+    margin-bottom: -90px;
+}
+
+.Global-Community {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.Global-Community-div {
+    margin-right: 400px;
+}
+
+
+
+
+
+
 
 /* for phone */
 @media only screen and (max-width: 576px) {
@@ -150,6 +220,46 @@ body {
     .My-Mission-bottom-box-3 {
         margin: 20px;
     }
+
+    /* develop
+     */
+
+    .develop {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .develop-img-shape {
+        display: none;
+    }
+
+    .develop-img {
+        max-width: 350px;
+        max-height: 350px;
+
+    }
+
+    .develop-img-shape-2 {
+        display: none;
+    }
+
+    .Global-Community {
+        flex-direction: column-reverse;
+
+
+    }
+
+    .Global-Community-div {
+        margin-right: 0px;
+        padding: 40px;
+        margin-top: 20px;
+    }
+
+    .develop-text-div {
+        padding: 40px;
+    }
+
 
 
 }
